@@ -1,0 +1,351 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nain Josael Cabrera Argueta</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:'Poppins',sans-serif;
+            background:#0f172a;
+            color:white;
+            overflow-x:hidden;
+        }
+
+        .fondo{
+            position:fixed;
+            width:100%;
+            height:100%;
+            background:
+            radial-gradient(circle at top left,#2563eb,transparent 30%),
+            radial-gradient(circle at bottom right,#7c3aed,transparent 30%),
+            #0f172a;
+            z-index:-1;
+        }
+
+        .container{
+            width:90%;
+            max-width:1200px;
+            margin:auto;
+        }
+
+        header{
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        .hero{
+            background:rgba(255,255,255,0.08);
+            border:1px solid rgba(255,255,255,0.1);
+            backdrop-filter:blur(10px);
+            padding:50px;
+            border-radius:30px;
+            box-shadow:0 10px 40px rgba(0,0,0,0.4);
+            width:100%;
+        }
+
+        .hero img{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            border:5px solid #60a5fa;
+            object-fit:cover;
+            margin-bottom:25px;
+            box-shadow:0 0 25px rgba(96,165,250,0.7);
+        }
+
+        .hero h1{
+            font-size:55px;
+            margin-bottom:10px;
+            background:linear-gradient(to right,#60a5fa,#a78bfa);
+            -webkit-background-clip:text;
+            -webkit-text-fill-color:transparent;
+        }
+
+        .hero h2{
+            font-weight:400;
+            font-size:22px;
+            color:#cbd5e1;
+            margin-bottom:20px;
+        }
+
+        .hero p{
+            max-width:700px;
+            margin:auto;
+            line-height:1.8;
+            color:#e2e8f0;
+            font-size:17px;
+        }
+
+        .botones{
+            margin-top:35px;
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .botones a{
+            padding:14px 28px;
+            border-radius:12px;
+            text-decoration:none;
+            font-weight:600;
+            transition:0.3s;
+        }
+
+        .btn1{
+            background:#2563eb;
+            color:white;
+        }
+
+        .btn2{
+            background:transparent;
+            border:2px solid #60a5fa;
+            color:#60a5fa;
+        }
+
+        .btn1:hover,
+        .btn2:hover{
+            transform:translateY(-5px);
+        }
+
+        section{
+            padding:80px 0;
+        }
+
+        .titulo{
+            text-align:center;
+            font-size:40px;
+            margin-bottom:50px;
+        }
+
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .card{
+            background:rgba(255,255,255,0.08);
+            padding:30px;
+            border-radius:20px;
+            backdrop-filter:blur(10px);
+            border:1px solid rgba(255,255,255,0.1);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+        }
+
+        .card h3{
+            margin-bottom:15px;
+            color:#60a5fa;
+        }
+
+        .skills{
+            display:flex;
+            flex-wrap:wrap;
+            gap:15px;
+            justify-content:center;
+        }
+
+        .skill{
+            background:#1e293b;
+            padding:14px 24px;
+            border-radius:12px;
+            border:1px solid #334155;
+            transition:0.3s;
+        }
+
+        .skill:hover{
+            background:#2563eb;
+        }
+
+        .contacto{
+            text-align:center;
+        }
+
+        .contacto p{
+            margin:15px 0;
+            font-size:18px;
+        }
+
+        .contacto a{
+            color:#60a5fa;
+            text-decoration:none;
+        }
+
+        footer{
+            text-align:center;
+            padding:30px;
+            border-top:1px solid rgba(255,255,255,0.1);
+            color:#94a3b8;
+        }
+
+        @media(max-width:768px){
+            .hero h1{
+                font-size:38px;
+            }
+
+            .hero{
+                padding:35px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="fondo"></div>
+
+    <header>
+        <div class="container">
+            <div class="hero">
+
+                <img src="https://via.placeholder.com/180" alt="Foto de perfil">
+
+                <h1>Nain Josael Cabrera Argueta</h1>
+
+                <h2>Desarrollador Web & Estudiante de Software</h2>
+
+                <p>
+                    Apasionado por el desarrollo web, bases de datos y diseño moderno.
+                    Me gusta crear proyectos profesionales utilizando HTML, CSS,
+                    GitHub y tecnologías modernas.
+                </p>
+
+                <div class="botones">
+                    <a class="btn1" href="https://github.com/N730P" target="_blank">
+                        Ver GitHub
+                    </a>
+
+                    <a class="btn2" href="https://wa.me/50377787668" target="_blank">
+                        Contactar
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+
+            <h2 class="titulo">Mis Habilidades</h2>
+
+            <div class="skills">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">GitHub</div>
+                <div class="skill">PostgreSQL</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">Diseño UI</div>
+                <div class="skill">Visual Studio Code</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+
+            <h2 class="titulo">Sobre Mí</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Programación</h3>
+                    <p>
+                        Desarrollo páginas web modernas y proyectos utilizando
+                        tecnologías actuales.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Bases de Datos</h3>
+                    <p>
+                        Aprendiendo PostgreSQL, relaciones PK y FK,
+                        estructuras de tablas y consultas.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Diseño Web</h3>
+                    <p>
+                        Me enfoco en interfaces limpias, modernas,
+                        elegantes y responsivas.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container contacto">
+
+            <h2 class="titulo">Contacto</h2>
+
+            <p><strong>WhatsApp:</strong> 7778-7668</p>
+
+            <p>
+                <strong>TikTok:</strong>
+                <a href="https://www.tiktok.com/@naincabrera" target="_blank">
+                    @naincabrera
+                </a>
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/N730P" target="_blank">
+                    github.com/N730P
+                </a>
+            </p>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2026 - Perfil Profesional de Nain Josael Cabrera Argueta
+    </footer>
+
+</body>
+</html>
+```
+
+## Después de pegar el código
+
+1. Guarda el archivo como:
+
+```text
+index.html
+```
+
+2. Abre Live Server.
+
+3. Cuando hagas cambios, usa estos comandos para actualizar GitHub:
+
+```bash
+git add .
+git commit -m "Actualización del perfil"
+git push
+```
