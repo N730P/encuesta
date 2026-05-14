@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Nain Josael Cabrera Argueta</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Cdefs%3E%3CradialGradient id='g' cx='50%25' cy='50%25' r='70%25'%3E%3Cstop offset='0%25' stop-color='%2360a5fa'/%3E%3Cstop offset='100%25' stop-color='%23a78bfa'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='180' height='180' rx='40' fill='url(%23g)'/%3E%3Ctext x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' font-size='80' font-family='Poppins, sans-serif' fill='white'%3EN%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{font-family:'Poppins',sans-serif;background:#0b1220;color:#e2e8f0;min-height:100vh;}
+        .page{width:min(1100px,calc(100% - 32px));margin:0 auto;padding:32px 0;}
+        .hero{padding:36px;border-radius:28px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);backdrop-filter:blur(12px);box-shadow:0 20px 60px rgba(0,0,0,0.25);}
+        .hero h1{font-size:3.4rem;line-height:1.05;margin-bottom:12px;background:linear-gradient(90deg,#60a5fa,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+        .hero p{max-width:860px;margin-top:18px;line-height:1.8;color:#cbd5e1;font-size:1rem;}
+        .badge-list{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px;}
+        .badge{background:rgba(96,165,250,0.12);color:#e2e8f0;padding:10px 16px;border-radius:999px;font-size:.95rem;border:1px solid rgba(96,165,250,0.18);}
+        .links{margin-top:30px;display:flex;flex-wrap:wrap;gap:16px;}
+        .links a{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:18px;background:rgba(134,239,172,0.12);color:#d1fae5;text-decoration:none;font-weight:600;border:1px solid rgba(134,239,172,0.18);transition:transform .25s ease,background .25s ease;}
+        .links a:hover{transform:translateY(-2px);background:rgba(134,239,172,0.2);}
+        .section{margin-top:54px;}
+        .section-title{font-size:2rem;color:#f8fafc;margin-bottom:24px;}
+        .grid{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));}
+        .card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:24px;padding:26px;backdrop-filter:blur(10px);}
+        .card h3{font-size:1.3rem;margin-bottom:14px;color:#60a5fa;}
+        .card p{line-height:1.8;color:#cbd5e1;}
+        .form-card{display:grid;gap:18px;}
+        .form-card form{background:rgba(255,255,255,0.08);padding:28px;border-radius:24px;border:1px solid rgba(255,255,255,0.12);display:grid;gap:18px;}
+        .form-card input,.form-card textarea{width:100%;padding:16px 18px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:16px;color:#eef2ff;font-size:1rem;outline:none;}
+        .form-card input::placeholder,.form-card textarea::placeholder{color:#94a3b8;}
+        .form-card textarea{min-height:160px;resize:vertical;}
+        .form-card button{padding:16px 20px;border-radius:16px;border:none;background:linear-gradient(135deg,#60a5fa,#a78bfa);color:white;font-weight:700;cursor:pointer;transition:transform .25s ease,box-shadow .25s ease;}
+        .form-card button:hover{transform:translateY(-2px);box-shadow:0 18px 32px rgba(96,165,250,0.25);}
+        .footer{margin-top:50px;padding:24px 0;text-align:center;color:#94a3b8;font-size:.95rem;border-top:1px solid rgba(255,255,255,0.1);}
+        @media(max-width:860px){.hero h1{font-size:2.8rem;}}    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="hero">
+            <h1>Hola, soy Nain Josael Cabrera Argueta</h1>
+            <p>Desarrollador web y estudiante de software apasionado por construir experiencias limpias y modernas. Aquí tienes mi perfil conectado directamente a <strong>skill.md</strong>.</p>
+            <div class="badge-list">
+                <span class="badge">HTML</span>
+                <span class="badge">CSS</span>
+                <span class="badge">GitHub</span>
+                <span class="badge">PostgreSQL</span>
+            </div>
+            <div class="links">
+                <a href="skill.md" target="_blank">Ver skill.md</a>
+                <a href="https://github.com/N730P" target="_blank">Ir a GitHub</a>
+                <a href="mailto:naincabrera@email.com">Enviar correo</a>
+            </div>
+        </div>
+
+        <section class="section">
+            <h2 class="section-title">Formulario de Contacto</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>¿Por qué contactarme?</h3>
+                    <p>Este formulario te permite enviarme un mensaje directo para proyectos, colaboraciones o dudas sobre mi perfil. También puedes ver mi perfil completo en el archivo <code>skill.md</code>.</p>
+                </div>
+                <div class="form-card">
+                    <form action="https://formspree.io/f/mwvyjpgj" method="POST">
+                        <input type="text" name="nombre" placeholder="Tu nombre" required>
+                        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                        <input type="text" name="asunto" placeholder="Asunto" required>
+                        <textarea name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+                        <button type="submit">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Redes y contacto</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>WhatsApp</h3>
+                    <p>Chatea directamente conmigo desde el número +503 7778-7668.</p>
+                </div>
+                <div class="card">
+                    <h3>TikTok</h3>
+                    <p>Sígueme en <a href="https://www.tiktok.com/@naincabrera" target="_blank" style="color:#60a5fa;">@naincabrera</a> para contenido web y desarrollo.</p>
+                </div>
+                <div class="card">
+                    <h3>GitHub</h3>
+                    <p>Visita mi repositorio en <a href="https://github.com/N730P" target="_blank" style="color:#60a5fa;">github.com/N730P</a> para ver proyectos recientes.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="footer">Este HTML está conectado a <a href="skill.md" target="_blank" style="color:#60a5fa;">skill.md</a> y puede abrirse directamente en el navegador.</div>
+    </div>
+</body>
+</html>
